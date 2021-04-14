@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 16px;
+    font-family: "Trembuchet MS", Helvetica, sans-serif ;
+    background: whitesmoke;
+}
+
+#navegacao{
+    background:whitesmoke;
+    border-bottom: 1px solid whitesmoke;
+    height: 45px;
+}
+
+#area{
+    width: 720px;
+    margin: 0 auto;
+    
+}
+#area-principal{
+    width: 720px;
+    margin: 10px auto 10px auto;
+    
+}
+
+#menu{
+    float: right;
+    padding: 10px 0px;
+}
+
+#logo{
+    float: left;
+}
+
+
+#postagem{
+    background:#fff;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+h2{
+    color: green;
+}
+/*Formatação do menu*/
+a{
+    text-decoration: none;
+    padding: 5px 10px;
+}
+    
+
+/*Links nao visitados*/
+
+    a:link{
+        color: gray;
+    }
+
+/*Links visitados*/
+
+a:visited{
+    color: gray;
+}
+
+/*link hover*/
+a:hover{
+    background: greenyellow;
+    color: black;
+}
+
+/*link active*/
+a:active{
+    color:burlywood;
+}
+
+/*Classes*/
+
+.verde{
+    color: green;
+}
+
+.data-postagem{
+    font-size: 14px;
+    border-bottom: 1px solid whitesmoke ;
+    display: block;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+.img-postagem{
+    float: left;
+    margin: 10px 5px 20px 10px;
+}
+
+.postado {
+    border-left: 5px solid green;
+    padding-left: 5px;
+    display: block;
+    margin-top: 10px;
+    border-bottom: 10px solid whitesmoke;
+    
+}
