@@ -1,0 +1,189 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+#header {
+  width: 100%;
+  background-color: transparent;
+  transition: background ease-out 0.2s;
+}
+
+#header.active {
+  position: fixed;
+  background: white;
+  box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.2);
+  z-index: 9999;
+}
+
+#header .navbar-collapse {
+  width: auto;
+}
+#header .nav-link {
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-left: 0;
+  padding-right: 0;
+  color: black;
+  border-bottom: solid 4px transparent;
+}
+
+
+#header .nav-link:hover {
+  border-bottom: solid 4px var(--secondary);
+  color: var(--secondary);
+}
+
+#slider {
+  background: url(../imagens/slider-bg.svg);
+  background-size: contain;
+}
+
+#slider h1 {
+  text-transform: uppercase;
+  font-weight: 900;
+}
+
+#slider h4{
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+
+#servicos a.destaque {
+  display: block;
+  background: var(--light);
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  text-decoration: none;
+  transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover {
+  background:white;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+  transform: scale(1.05);
+}
+
+#servicos p {
+  color: var(--dark);
+}
+
+#servicos a.destaque .img-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 200px;
+}
+
+#servicos a.destaque .img-container img {
+  max-height: 160px;
+}
+
+
+#clientes a.link-cliente {
+  padding: 0 15px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid 1px var(--light);
+  height: 100px;
+  transition: ease-out all 0.2s;
+}
+
+#clientes a.link-cliente:hover{
+  transform: scale(1.2);
+  box-shadow:  0 0 15px 0 rgba(0, 0, 0, 0.12);
+  
+}
+
+#clientes a.link-cliente img{
+  filter: grayscale(100%);
+  max-height: 70px;
+  width: 100$;
+  opacity: 0.6;
+}
+
+#clientes a.link-cliente:hover img{
+  filter: none;
+  opacity: 1;
+}
+
+#clientes .cliente-text{
+  display: flex;
+  flex-direction:column;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--light);
+  border-radius: 5px;
+}
+
+#clientes .cliente-text .imagem {
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  margin-left: -70px;
+  color: #b4b4b4;
+  font-size: 24px;
+  line-height: 26px;
+}
+
+#clientes .cliente-text .imagem span {
+  color: var(--secondary);
+  font-size: 110px;
+  line-height: 110px;
+  letter-spacing: -10px;
+  font-weight: 900;
+  display: block;
+}
+
+#clientes .cliente-text .telefone {
+  display: flex;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+
+#clientes .cliente-text .telefone span {
+  font-size: 25px;
+  color: #797979;
+  font-weight: 900;
+  display: block;
+}  
+
+
+#servicos .badge {
+  font-weight: 400;
+}
+
+#servicos .element-item img {
+  border-radius: 5px;
+  transition: all ease-out 0.2s;
+}
+
+#servicos .element-item img:hover {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+#servicos .button-group {
+  margin-bottom: 30px;
+}
+
+#servicos .button-group button {
+  background: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 700;
+  outline: none;
+  }
+
+  #servicos .button-group button + button {
+    margin-left: 30px;
+  }
+
+  #servicos .button-group button.active {
+    color: var(--primary);
+  }
