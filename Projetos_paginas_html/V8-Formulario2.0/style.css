@@ -4,7 +4,6 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 body {
@@ -199,7 +198,6 @@ ul {
     font-family: 'Poppins', sans-serif;
     background-size: 200%;
     transition: .5s;
-
 }
 
 .btn:hover {
