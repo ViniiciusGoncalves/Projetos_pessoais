@@ -1,0 +1,23 @@
+@media only screen and (min-width:900px) and (max-width:1200px) {
+    .img img {
+        display: none;
+    
+}
+    .circle {
+        clip-path: circle(35% at right 80%);
+}
+
+@media only screen and (max-width:900px) {
+    .login-container{
+        left:40px;
+    }
+    .circle {
+        clip-path: circle(35% at left 80%);
+    }
+}   
+
+@media only screen and (max-width:450px) {
+    
+
+}
+}
