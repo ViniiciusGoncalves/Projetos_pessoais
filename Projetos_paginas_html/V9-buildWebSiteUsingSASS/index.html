@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/b4790a3d46.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+<body>
+    <!-- Navbar Section -->
+    <nav class="navbar">
+        <a href="/" class="navbar__logo">SASS</a>
+        <div class="navbar__bars" >
+            
+        </div>
+        <div class="navbar__menu" id="navbar__bars">
+            <a href="" class="navbar__menu--links">Home</a>
+            <a href="" class="navbar__menu--links">Products</a>
+            <a href="" class="navbar__menu--links">Services</a>
+            <a href="" class="navbar__menu--links" id="button">Sign Up</a>
+        </div>
+            <a href="javascript: void(0)" onclick="mostrarMenu()">
+                <i class="fas fa-bars" id="icone__bars"></i>  
+            </a>  
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero">
+        <div class="hero__container">
+            <div class="hero__container--left">
+                <h1>They are coming</h1>
+                <h2>Be Prepared</h2>
+                <p>Sign up now to join te list.</p>
+                <button class="hero__container--btn">
+                    <a href="#">Sign Up</a>
+                </button>
+            </div>
+            <div class="hero__container--right">
+                <img src="styles/images/img-2-.svg" alt="alien" class="hero__container--img">
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function mostrarMenu() {
+            var menu = document.getElementById("navbar__bars");
+            var icone = document.getElementById("icone__bars")
+
+            if(menu.style.display == "none") {
+                menu.style.display = "flex";
+                icone.classList.remove("fa-bars");
+                icone.classList.add("fa-times")
+                //Mudar para times
+            } 
+            else {
+                menu.style.display = "none";
+                icone.classList.add("fa-bars");
+                icone.classList.remove("fa-times");
+            }
+        }
+    </script>
+
+</body>
+</html>
+
