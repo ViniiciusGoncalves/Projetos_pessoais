@@ -1,0 +1,15 @@
+.container-grid {
+    width: 85%;
+}
+
+.menu-header {
+    width: 100%;
+}
+
+.social-midia {
+    display: flex;
+    padding-left: 50px;
+}
+.social-midia1 {
+    padding-left: 470px;
+}

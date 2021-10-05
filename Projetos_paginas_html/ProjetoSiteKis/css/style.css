@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sail&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    position: fixed;
+    width: 100vw;
+    z-index: 99;
+}
+
+.conteudo-header {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    align-items: center;
+}
+
+.menu-header {
+    display: none;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-header a {
+    color: gray;
+    text-decoration: none;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+.menu-header a:hover {
+    font-size: 1.50em;
+    transition: 0.5s;
+    color: black; 
+}
+
+.social-midia {
+    padding-left: 200px;
+}
+
+.social-midia1 {
+    padding-left: 150px;
+}
+
+.fa-instagram{
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-decoration: none;
+    font-size: 2.25em;
+    padding-right: 15px;
+}
+
+.fa-whatsapp  {
+    color:#fff;
+    background:
+    linear-gradient(#25d366,#25d366) 14% 84%/16% 16% no-repeat,
+    radial-gradient(#25d366 58%,transparent 0);
+    text-decoration: none;
+    font-size: 2.25em;
+}
+
+.fa-facebook {
+    color: #3b5998;
+    text-decoration: none;
+    font-size: 2.25em;
+}
+
+.banner {
+    background-image: url(../imagem/pexels-marko-klaric-6408290.jpg);
+    height: 938px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+
+.conteudo-home {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.texto-home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30%;
+    width: 85%;
+    background-color: white;
+    opacity: 0.9;
+}
+
+.texto-home h1 {
+    font-family: 'Sail', cursive;
+    color: #ad9a2b93;
+    font-size: 50px;
+}
+
+.texto-home p {
+    font-size: 19px;
+    width: 85%;
+}
+
+.texto-home a {
+    color: black;
+}
+
+.footer-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.footer-texto span {
+    padding-right: 10px;
+}

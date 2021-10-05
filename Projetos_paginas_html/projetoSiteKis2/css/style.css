@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&family=Sail&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    
+}
+
+.sidebar{
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #11101d;
+    padding: 6px 14px;
+    transition: all 0.5 ease;
+}
+
+.sidebar.active {
+    height: 240px;
+}
+
+LOGO
+
+.sidebar #btn {
+    position: absolute;
+    color: #fff;
+    left: 27%;
+    top: 6px;
+    font-size: 20px;
+
+}
+
+.sidebar.active #btn {
+    left: 90%;
+} 
+
+.sidebar ul {
+    display: flex;
+    justify-content: center;
+}
+
+.sidebar.active ul {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.sidebar li {
+    position: relative;
+    height: 50px;
+    width: 100%;
+    margin: 0 5px;
+    list-style: none;
+    line-height: 50px;
+}
+
+.sidebar.active li {
+    display: flex;
+    
+}
+
+.sidebar .tooltip {
+    border-radius: 6px;
+    background: white;
+    line-height: 35px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    transition: 0s;
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active .tooltip {
+    display: none;
+}
+
+.sidebar :hover .tooltip {
+    transition: all 0.5s ease;
+    opacity: 1;
+    top: 50%
+}
+
+.sidebar a{
+    color: #fff;
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    transition: all 0.4s ease;
+    border-radius: 12px;
+    white-space: nowrap;
+}
+
+.sidebar a:hover {
+    color: #11101d;
+    background: #272638;
+}
+
+.sidebar i {
+    color: white;
+    height: 50px;
+    min-width: 50px;
+    border-radius: 12px;
+    line-height: 50px;
+    font-size: 20px;
+}
+
+.sidebar .links_name {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active .links_name {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.sidebar .links_social {
+    opacity: 0;
+    pointer-events: none;
+}
+
+.sidebar.active .links_social {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.container-grid {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.conteudo-home{
+    margin-top: 230px;
+    display: flex;
+    justify-content: center;
+}
+
+.texto-home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.texto-home h1 {
+    font-family: 'Sail', cursive;
+    color: #11101d;
+    font-size: 50px;
+}
+
+.texto-home p {
+    font-size: 19px;
+    width: 85%;
+}
+
+.background-texto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    height: 130px;
+    background-color: #11101d;
+    color: white;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.texto-cardapio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.texto-cardapio h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Sail', cursive;
+    color: #11101d;
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.texto-cardapio p {
+    font-size: 19px ;
+}
+
+.pasta-americana {
+    margin-top: 100px;
+}
+
+.pasta-americana-texto {
+    display: flex;
+    align-items: center;
+}
+
+.pasta-americana h3 {
+    font-family: 'Sail', cursive;
+    color: #11101d;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 45px;
+}
+
+.pasta-americana-texto p {
+    font-size: 19px;
+    margin-bottom: 100px;
+}
+
+#slider {
+    width: 80%;
+    max-width: 500px;
+    max-height: 150px;
+    position: relative;
+}
+
+#slider img {
+    opacity: 0;
+    width: 60%;
+    position: absolute;
+    object-fit: cover;
+}
+
+#slider img.selected {
+    opacity: 1;
+}
+
+
