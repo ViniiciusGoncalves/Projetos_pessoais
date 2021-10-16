@@ -1,0 +1,14 @@
+.container-grid {
+    width: 90%;
+}
+
+.menu-header {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    top: 80px;
+    left: 0px;
+    height: 300px;
+}   
