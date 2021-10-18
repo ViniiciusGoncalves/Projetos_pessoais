@@ -1,0 +1,541 @@
+@media (max-width: 1140px) {
+  nav .nav-items {
+    position: fixed;
+    z-index: -1;
+    top: -130px;
+    width: 100%;
+    left: -100%;
+    height: 100%;
+    padding: 10px 50px 0 50px;
+    text-align: center;
+    background: rgb(247, 247, 247);
+    display: inline-block;
+    transition: left 0.3s ease;
+  }
+  nav .nav-items.active {
+    left: 0px;
+  }
+  nav .nav-items li {
+    line-height: 40px;
+    margin: 30px 0;
+  }
+  nav .nav-items li a {
+    font-size: 20px;
+    color: black;
+  }
+  nav form {
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    opacity: 0;
+    pointer-events: none;
+    transition: top 0.3s ease, opacity 0.1s ease;
+  }
+  nav form.active {
+    top: 95px;
+    opacity: 1;
+    pointer-events: auto;
+  }
+  nav form:before {
+    position: absolute;
+    content: "";
+    top: -13px;
+    right: 0px;
+    width: 0;
+    height: 0;
+    z-index: -1;
+    border: 10px solid transparent;
+    border-bottom-color: #1e232b;
+    margin: -20px 0 0;
+  }
+  nav form:after {
+    position: absolute;
+    content: "";
+    height: 60px;
+    padding: 2px;
+    background: #1e232b;
+    border-radius: 2px;
+    min-width: calc(100% + 20px);
+    z-index: -2;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  nav .menu-icon {
+    display: block;
+  }
+  nav .menu-icon span {
+    display: block;
+  }
+  nav .menu-icon span.hide {
+    display: none;
+  }
+  nav .cancel-icon.show {
+    display: block;
+  }
+  .kiss_layout_container {
+    position: fixed;
+  }
+  .container-grid {
+    width: 90%;
+  }
+
+  .banner_card {
+    background-image: url("../imagens/157229277_049202920\ \(copy\).jpg");
+  }
+  .banner {
+    height: 690px;
+  }
+  .layout_text h3 {
+    width: 50%;
+  }
+  .imagem_svg {
+    padding-top: 69px;
+  }
+  .divider img {
+    width: 27%;
+  }
+  .divider {
+    font-size: 40px;
+  }
+  .style-svg {
+    height: 21px;
+  }
+  .section_card {
+    padding-top: 55px;
+  }
+  .banner-sociais {
+    height: 343px;
+  }
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+}
+
+.content header {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.content .text {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.space {
+  margin: 10px 0;
+}
+
+nav .logo.space {
+  padding: 0 5px 0 0;
+}
+
+/* tablet */
+
+@media (max-width: 980px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav form {
+    right: 30px;
+    font-size: 25px;
+    margin-top: 0px;
+    position: fixed;
+  }
+  .banner {
+    height: 608px;
+  }
+  .layout_text {
+    padding-top: 185px;
+  }
+  .social-midia-text h2 {
+    padding-top: 0px;
+  }
+  .banner-sociais {
+    height: 295px;
+  }
+}
+
+/* PRO-MAX  */
+
+@media (max-width: 428px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 85px;
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 36px;
+  }
+  .layout_text h3 {
+    margin-top: 115px;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+  }
+  .imagem_svg {
+    padding-top: 115px;
+  }
+}
+
+/* PIXEL 2  */
+
+@media (max-width: 414px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 12px;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .layout_text h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 42px;
+  }
+  .layout_text h3 {
+    width: 100%;
+  }
+  .imagem_svg {
+    padding-top: 146px;
+  }
+  .divider img {
+    width: 57%;
+  }
+  .divider h2 {
+    font-size: 30px;
+  }
+  .confeiteira {
+    flex-direction: column-reverse;
+  }
+  .about_me_text {
+    padding-top: 45px;
+  }
+  .confeiteira img {
+    margin-top: 15px;
+    width: 45%;
+    align-self: center;
+  }
+  .banner_card {
+    margin-top: 0px;
+    height: 2696px;
+  }
+  .section_card {
+    flex-direction: column;
+    padding-top: 55px;
+  }
+  .card {
+    align-self: center;
+  }
+  .style-svg {
+    height: 13px;
+  }
+  .section-title img {
+    width: 57%;
+  }
+  .section-title h2 {
+    font-size: 30px;
+  }
+  .listing-carousel-button {
+    height: 0%;
+    width: 0%;
+  }
+}
+
+/* PIXEL XL */
+
+@media (max-width: 411px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 95px;
+    font-size: 25px;
+    margin-top: 0px;
+  }
+  .layout_text {
+    padding-top: 203px;
+  }
+  .layout_text h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 47px;
+  }
+  .layout_text h3 {
+    margin-top: 7px;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+  }
+  .imagem_svg img {
+    margin-bottom: 00px;
+  }
+  .divider h2 {
+    font-size: 30px;
+  }
+  .divider img {
+    width: 57%;
+  }
+  .confeiteira {
+    flex-direction: column-reverse;
+  }
+  .about_me_text {
+    padding-top: 45px;
+  }
+  .confeiteira img {
+    margin-top: 15px;
+    width: 45%;
+    align-self: center;
+  }
+  .banner_card {
+    margin-top: 0px;
+    height: 2696px;
+  }
+  .section_card {
+    flex-direction: column;
+    padding-top: 55px;
+  }
+  .card {
+    align-self: center;
+  }
+  .section-title img {
+    width: 55%;
+  }
+  .section-title h2 {
+    font-size: 35px;
+  }
+  .style-svg {
+    height: 13px;
+  }
+  .listing-carousel-button {
+    height: 0%;
+    width: 0%;
+  }
+  .banner-sociais {
+    height: 123px;
+  }
+  .style1 img {
+    padding-top: 4px;
+  }
+  .social-midia-text h2 {
+    font-size: 10px;
+  }
+  .social-midia {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .padding {
+    padding-right: 0px;
+  }
+  .background-white {
+    width: 30px;
+  }
+  .footer span {
+    font-size: 11px;
+  }
+  .footer h3 {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
+@media (max-width: 411px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 00px;
+    font-size: 25px;
+  }
+  .layout_text h2 {
+    font-size: 28px;
+  }
+  .layout_text h1 {
+    font-size: 36px;
+  }
+  .layout_text h3 {
+    width: 85%;
+    font-size: 16px;
+  }
+  .imagem_svg {
+    padding-top: 253px;
+  }
+  .divider h2 {
+    font-size: 28px;
+  }
+  .section-title h2 {
+    font-size: 28px;
+  }
+  .section-title img {
+    width: 57%;
+  }
+  .style1 img {
+    padding-top: 9px;
+  }
+  .banner-sociais {
+    height: 96px;
+  }
+  .padding {
+    padding-right: 0px;
+  }
+  .background-white {
+    width: 30px;
+  }
+  .footer span {
+    font-size: 11px;
+  }
+  .footer h3 {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
+
+/* Celular tamanho médio */
+
+@media (max-width: 390px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 0px;
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 36px;
+  }
+  .layout_text h3 {
+    margin-top: 116px;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+  }
+  .imagem_svg {
+    padding-top: 115px;
+  }
+}
+
+@media (max-width: 375px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 00px;
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 36px;
+  }
+  .layout_text h3 {
+    margin-top: 116px;
+    text-align: center;
+    width: 80%;
+    font-size: 16px;
+  }
+  .imagem_svg {
+    padding-top: 115px;
+  }
+}
+
+@media (max-width: 320px) {
+  nav .menu-icon,
+  nav .cancel-icon,
+  nav {
+    margin: 0 00px;
+    font-size: 25px;
+  }
+  .layout_text h2 {
+    font-size: 30px;
+  }
+  .layout_text h1 {
+    font-size: 35px;
+  }
+  .layout_text h3 {
+    font-size: 16px;
+    width: 100%;
+  }
+  .imagem_svg {
+    padding-top: 113px;
+  }
+  .about_me_text {
+    padding-top: 25px;
+  }
+  .divider img {
+    width: 55%;
+  }
+  .divider h2 {
+    font-size: 35px;
+  }
+  .confeiteira {
+    flex-direction: column-reverse;
+  }
+  .confeiteira img {
+    width: 50%;
+    margin-top: 20px;
+  }
+  .banner_card {
+    margin-top: 0px;
+    height: 2696px;
+  }
+  .style-svg {
+    height: 13px;
+  }
+  .section_card {
+    flex-direction: column;
+  }
+  .card {
+    align-self: center;
+  }
+  .section-title img {
+    width: 55%;
+  }
+  .section-title h2 {
+    font-size: 35px;
+  }
+  .listing-carousel-button {
+    height: 0%;
+    width: 0%;
+  }
+  .banner-sociais {
+    height: 106px;
+  }
+  .style1 img {
+    padding-top: 4px;
+  }
+  .social-midia-text h2 {
+    font-size: 10px;
+  }
+  .social-midia {
+    font-size: 20px;
+    padding-left: 20px;
+  }
+  .padding {
+    padding-right: 0px;
+  }
+  .background-white {
+    width: 30px;
+  }
+  .footer span {
+    font-size: 11px;
+  }
+  .footer h3 {
+    font-size: 12px;
+  }
+  .footer p {
+    font-size: 10px;
+  }
+}
