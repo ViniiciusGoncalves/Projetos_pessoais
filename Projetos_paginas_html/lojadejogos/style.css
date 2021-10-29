@@ -1,0 +1,270 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+header {
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header1 {
+  background: rgb(59, 59, 245);
+  z-index: 9999;
+  height: 40px;
+  width: 100%;
+  text-align: center;
+  top: 0;
+  font-size: 12px;
+}
+
+.box-menu-top {
+  max-width: 1550px;
+}
+
+.menu-top {
+  padding-top: 10px;
+  float: right;
+}
+
+.menu-top a {
+  color: white;
+  text-decoration: none;
+}
+
+.bg {
+  background-color: rgb(11, 11, 245);
+}
+
+.line {
+  height: 290px;
+  position: relative;
+  border: 0;
+  width: auto;
+}
+
+.container {
+  max-width: 1378px;
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.flex {
+  display: flex;
+}
+
+header .line > :not(:last-child):not(.space):not(.logo) {
+  margin-right: 34px;
+}
+
+.search-header {
+  width: 350px;
+  position: relative;
+  margin-right: 34px;
+}
+.input-search {
+  background-color: transparent !important;
+  font-size: 0.875rem;
+  padding: 0 10px 0 38px;
+  width: 100%;
+  display: block;
+  height: 32px;
+  border-radius: 0 !important;
+  color: white !important;
+  border-bottom: 1px solid white !important;
+  transition: border ease-in-out 0.3s;
+  border: 0;
+}
+
+.input-search:hover::after {
+  border-bottom: 1px solid orange;
+}
+
+input:focus,
+textarea:focus {
+  box-shadow: 0 0 0 0;
+  outline: 0;
+}
+
+input::placeholder {
+  color: white;
+}
+
+.space {
+  flex-grow: 1;
+}
+
+.button-search {
+  background-color: transparent;
+  position: absolute;
+  top: 0;
+  height: calc(100% - 2px);
+  width: 38px;
+  text-align: left;
+  left: 0;
+  display: block;
+}
+
+button {
+  border: 0;
+  cursor: pointer;
+}
+
+.logo {
+  font-size: 0;
+  max-width: 294px;
+  display: block;
+  position: absolute;
+  top: 45%;
+  left: 55%;
+  transform: translate3d(-50%, -50%, 0);
+}
+
+.logo img {
+  width: 50%;
+}
+
+.account {
+  margin-right: 34px;
+}
+
+.icon-user {
+  max-width: 34px;
+  height: 30px;
+  margin-right: 10px;
+  font-size: 30px;
+}
+
+.account span {
+  position: absolute;
+  padding-top: 4px;
+}
+
+.area {
+  cursor: pointer;
+  position: relative;
+}
+
+.icon {
+  padding-left: 90px;
+  font-size: 30px;
+  max-width: 32px;
+  height: 32px;
+  display: block;
+  margin-right: 34px;
+}
+
+.number {
+  text-align: center;
+  line-height: 30px;
+  color: white;
+  background: rgb(231, 16, 16);
+  background-size: 100%;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  font-weight: 700;
+  font-size: 1.063rem;
+  margin: auto;
+}
+
+.nav {
+  background-color: rgb(11, 11, 245);
+  position: absolute;
+  left: 0;
+  width: 100%;
+  transition: ease-in-out 0.3s;
+  padding-top: 2px;
+}
+
+.nav::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  right: 10px;
+  border-top: 2px solid white;
+  opacity: 0.5;
+  max-width: 1348px;
+  margin: auto;
+}
+
+.container {
+  background: 0 0;
+  position: static;
+  width: 100%;
+  max-width: 1378px;
+  margin: 0 auto;
+  padding: 0 0.938rem;
+}
+
+.nav .list.grow {
+  justify-content: space-between;
+}
+
+.nav .list {
+  position: relative;
+  margin: 0 -10px;
+}
+
+.nav .justify-center {
+  justify-content: center;
+}
+
+.nav .flex {
+  display: flex;
+}
+
+.nav .relative {
+  position: relative;
+}
+
+li,
+p,
+ul {
+  border: 0;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+.nav .list > li > a img {
+    max-height: 30px;
+    max-width: 30px;
+    display: block;
+}
+
+.nav .list > li > a {
+  font-size: 14px;
+  line-height: 1.35;
+  display: flex;
+  padding: 0 10px;
+  cursor: pointer;
+  justify-content: center;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 1;
+  text-decoration: none;
+}
+
+.nav .list > li > a.vertical-icon {
+  flex-direction: column;
+  align-items: center;
+  height: 70px;
+}
