@@ -8,8 +8,8 @@
 .img-doces {
     position: absolute;
     width: 20%;
-    margin-top: -130px;
-    left: 200px;
+    margin-top: -150px;
+    left: 250px;
 }
 
 .tabela-texto {
@@ -54,17 +54,53 @@
 }
 
 .img-modelagem {
-
     position: absolute;
     margin-top: -420px;
     width: 20%;
     height: 25%;
-    margin-left: 1050px;
+    margin-left: 1087px;
 }
 
 .cupckae-img {
     position: absolute;
-    margin-top: -730px;
-    margin-left: 1330px;
+    margin-top: -790px;
+    margin-left: 1365px;
     width: 23%;
+}
+
+.img-doces-brown {
+    position: absolute;
+    width: 20%;
+    margin-top: -150px;
+    left: 950px;
+}
+
+.tabela-texto2 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 300px;
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 300px;
+    margin-left: 200px;
+}
+
+.linha-img3 {
+    position: absolute;
+    margin-top: -45px;
+    width: 10.5%;
+    height: 41%;
+    margin-left: 250px;
+}
+
+.img-modelagem-brown {
+    position: absolute;
+    margin-top: -415px;
+    width: 20%;
+    height: 25%;
+    margin-left: 200px;
 }
