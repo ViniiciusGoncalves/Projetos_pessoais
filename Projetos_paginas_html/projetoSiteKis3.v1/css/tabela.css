@@ -8,7 +8,7 @@
 .img-doces {
     position: absolute;
     width: 20%;
-    margin-top: -130px;
+    margin-top: -140px;
     left: 200px;
 }
 
@@ -54,17 +54,267 @@
 }
 
 .img-modelagem {
-
     position: absolute;
     margin-top: -420px;
     width: 20%;
     height: 25%;
-    margin-left: 1050px;
+    margin-left: 1087px;
 }
 
 .cupckae-img {
     position: absolute;
-    margin-top: -730px;
-    margin-left: 1330px;
+    margin-top: -790px;
+    margin-left: 1300px;
     width: 23%;
+}
+
+
+
+.img-doces-brown {
+    position: absolute;
+    width: 20%;
+    margin-top: -140px;
+    left: 1050px;
+}
+
+.tabela-texto2 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 300px;
+    width: 70%;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    margin-bottom: 300px;
+    margin-left: 200px;
+}
+
+.tabela-texto2 h2{
+    color: #ee9eac;
+}
+
+.tabela-texto2 span {
+    color: black;
+}
+
+.tabela-texto2 p {
+    padding-bottom: 15px;
+}
+
+.linha-img3 {
+    position: absolute;
+    margin-top: -45px;
+    width: 11.5%;
+    height: 41%;
+    margin-left: 460px;
+}
+
+.img-modelagem-brown {
+    position: absolute;
+    margin-top: -410px;
+    width: 20%;
+    height: 25%;
+    margin-left: 300px;
+}
+
+.pao-mel-img {
+    position: absolute;
+    margin-top: -600px;
+    width: 23%;
+}
+
+
+
+
+
+.tabela3 {
+    margin-top: 100px;
+
+}
+.tabela-texto3 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 300px;
+    width: 50%;
+    margin-left: 240px;
+    padding-top: 30px;
+    padding-left: 30px;
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.tabela-texto3 h2{
+    color: #ee9eac;
+    padding-top: 5px;
+}
+
+.img-doces-gourmet {
+    position: absolute;
+    width: 20%;
+    margin-top: -130px;
+    left: 400px;
+}
+
+.img-cento {
+    position: absolute;
+    margin-top: -250px;
+    width: 20%;
+    height: 25%;
+    margin-left: 900px;
+}
+
+.brigadeiro-img {
+    position: absolute;
+    margin-top: -300px;
+    width: 20%;
+}
+
+.brigadeiro2-img {
+    position: absolute;
+    margin-top: -600px;
+    width: 20%;
+}
+
+
+
+.tabela-texto4 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 300px;
+    width: 90%;
+    padding-top: 30px;
+    padding-left: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    margin-bottom: 100px;
+}
+
+.img-bolos-brown {
+    position: absolute;
+    width: 20%;
+    margin-top: -140px;
+    left: 580px;
+}
+
+.tabela-texto4 h2{
+    color: #ee9eac;
+    padding-top: 5px;
+}
+
+.linha-img4 {
+    position: absolute;
+    margin-top: -25px;
+    width: 10.8%;
+    height: 41%;
+    margin-left: 420px;
+}
+
+
+.bolo-img {
+    position: absolute;
+    width: 15%;
+    margin-top: -420px;
+    left: 1115px;
+}
+
+
+
+.flex {
+    display: flex;
+}
+.massas-bolos-img img {
+    position: absolute;
+    width: 15%;
+    margin-left: 210px;
+}
+.tabela-texto5 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 100px;
+    width: 17%;
+    margin-left: 200px;
+    padding-top: 20px;
+    text-align: center;
+    color: #ee9eac;
+}
+
+.smash-cake-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 710px;
+}
+ 
+.tabela-texto6 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 100px;
+    width: 17%;
+    margin-left: 200px;
+    padding-top: 40px;
+    text-align: center;
+    color: #ee9eac;
+}
+
+.pasta-americana-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 1210px;
+}
+
+.tabela-texto7 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 100px;
+    width: 17%;
+    margin-left: 200px;
+    padding-top: 40px;
+    text-align: center;
+    color: #ee9eac;
+}
+
+.flex2 {
+    display: flex;
+}
+
+.redvelvet-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 310px;
+}
+
+.tabela-texto8 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 100px;
+    width: 30%;
+    margin-left: 200px;
+    padding-top: 30px;
+    text-align: center;
+    color: #ee9eac;
+}
+
+.placa-chocolate-img {
+    position: absolute;
+    width: 15%;
+    margin-left: 1050px;
+}
+
+.tabela-texto9 {
+    margin-top: 100px;
+    border: 1px solid saddlebrown;
+    border-radius: 20px;
+    height: 100px;
+    width: 30%;
+    margin-left: 200px;
+    padding-top: 30px;
+    text-align: center;
+    color: #ee9eac;
 }
