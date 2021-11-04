@@ -8,8 +8,13 @@
 .img-doces {
     position: absolute;
     width: 20%;
+<<<<<<< HEAD
     margin-top: -140px;
     left: 200px;
+=======
+    margin-top: -150px;
+    left: 250px;
+>>>>>>> 96f5a80589ad0b13537f3cb16347a1deb05cca43
 }
 
 .tabela-texto {
@@ -64,6 +69,7 @@
 .cupckae-img {
     position: absolute;
     margin-top: -790px;
+<<<<<<< HEAD
     margin-left: 1300px;
     width: 23%;
 }
@@ -75,6 +81,17 @@
     width: 20%;
     margin-top: -140px;
     left: 1050px;
+=======
+    margin-left: 1365px;
+    width: 23%;
+}
+
+.img-doces-brown {
+    position: absolute;
+    width: 20%;
+    margin-top: -150px;
+    left: 950px;
+>>>>>>> 96f5a80589ad0b13537f3cb16347a1deb05cca43
 }
 
 .tabela-texto2 {
@@ -91,6 +108,7 @@
     margin-left: 200px;
 }
 
+<<<<<<< HEAD
 .tabela-texto2 h2{
     color: #ee9eac;
 }
@@ -109,10 +127,19 @@
     width: 11.5%;
     height: 41%;
     margin-left: 460px;
+=======
+.linha-img3 {
+    position: absolute;
+    margin-top: -45px;
+    width: 10.5%;
+    height: 41%;
+    margin-left: 250px;
+>>>>>>> 96f5a80589ad0b13537f3cb16347a1deb05cca43
 }
 
 .img-modelagem-brown {
     position: absolute;
+<<<<<<< HEAD
     margin-top: -410px;
     width: 20%;
     height: 25%;
@@ -318,3 +345,10 @@
     text-align: center;
     color: #ee9eac;
 }
+=======
+    margin-top: -415px;
+    width: 20%;
+    height: 25%;
+    margin-left: 200px;
+}
+>>>>>>> 96f5a80589ad0b13537f3cb16347a1deb05cca43
