@@ -79,6 +79,7 @@
   .container-grid {
     width: 90%;
   }
+  
 
   .banner_card {
     background-image: url("../imagens/157229277_049202920\ \(copy\).jpg");
@@ -107,33 +108,11 @@
   .banner-sociais {
     height: 343px;
   }
+  
 }
 
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  text-align: center;
-  transform: translate(-50%, -50%);
-}
 
-.content header {
-  font-size: 30px;
-  font-weight: 700;
-}
 
-.content .text {
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.space {
-  margin: 10px 0;
-}
-
-nav .logo.space {
-  padding: 0 5px 0 0;
-}
 
 /* tablet */
 
@@ -158,6 +137,7 @@ nav .logo.space {
   .banner-sociais {
     height: 295px;
   }
+
 }
 
 /* PRO-MAX  */

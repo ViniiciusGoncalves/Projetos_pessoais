@@ -759,14 +759,13 @@ span ~ span {
 
 .banner-sociais {
   background-image: url("../imagens/Dollcetty-home-brand-bg-new.jpg");
-  height: 570px;
+  height: 521px;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 .style1 img {
-  margin: -1px;
   transform: rotate(180deg);
 }
 

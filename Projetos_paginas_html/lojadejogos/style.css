@@ -245,9 +245,9 @@ ul {
 }
 
 .nav .list > li > a img {
-    max-height: 30px;
-    max-width: 30px;
-    display: block;
+  max-height: 30px;
+  max-width: 30px;
+  display: block;
 }
 
 .nav .list > li > a {
@@ -271,122 +271,150 @@ ul {
 
 
 
-.card-jogos {
- background: black;
+.promocoes {
+  background: rgb(11, 11, 245);
+  display: flex;
+  justify-content: space-around;
+  padding-top: 300px;
 }
 
+.title-section {
+  font-size: 1.875rem;
+  font-weight: 700;
+  text-align: left;
+  text-transform: uppercase;
+}
 
-main{
-  width: 100%;
-  height: 840px;
-  /*background: red;*/
-  margin: 10px auto;
-  position: relative;
-  padding: 5px 0;
-}
-main .text{
-  padding: 10px;
-  text-align: center;
-  /*font-size: 30px;*/
-  color: #554;
-}
-.text h1{
-  font-size: 50px;
-}
-.text p{
-  width: 60%;
-  padding: 5px;
-  margin: auto;
-  line-height: 30px;
-}
-main header{
-  width: 98%;
-  height: 60px;
-  margin: 0 auto;
-  /*background: gray;*/
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  justify-content: space-between;
-  border-bottom: 2px solid #ddd;
-}
-header p span{
-  font-size: 40px;
-    margin: 0 5px;
-    cursor: pointer;
-    color: #555;
-     width: 30px;
-    height: 30px;
-    display: inline-block;
-    line-height: 19px;
-    text-align: center;
-    border-radius: 3px;
-}
-header p span:hover{
-  background: #222;
-    color: white;
-}
-section{
-  width: 98%;
-  height: 600px;
-  /*background: red;*/
-  margin: auto;
-  display: flex;
-  align-items: center;
-  overflow-x: auto;
-}
-section::-webkit-scrollbar{
-  display: none;
-}
-section .product{
-  min-width: 24%;
-  height: 90%;
-  background: whitesmoke;
-  margin:  0 20px  0 0;
-  border-radius: 20px;
-  position: relative;
+.title-section::before {
+  content: "";
+  display: block;
+  height: 3px;
+  background-color: white;
+  position: absolute;
   left: 0;
-  transition: 0.5s;
+  z-index: 2;
+  width: 16%;
+  margin-top: 30px;
+  margin-left: 125px;
+}
 
-}
-picture{
-  width: 100%;
-  height: 70%;
-  padding: 20px;
-  /*background: green;*/
-  display: flex;
+.carousel {
   overflow: hidden;
-  margin-bottom: 20px;
+  max-width: 600px;
+  position: relative;
+  margin-right: 500px;
 }
-picture img{
-  width: 100%;
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+  background: white;
 }
-.detail,
-.button{
-  width: 90%;
-  /*background: red;*/
-  margin: auto;
-  padding: 5px;
+
+.stars {
+  width: 20%;
+  height: 120px;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  margin-top: -70px;
+  margin-left: 240px;
+  margin-bottom: 15px;
+}
+
+.line-price {
+  font-size: 18px;
+  font-weight: 400;
+  position: relative;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.line-price::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -2px;
+  right: -2px;
+  bottom: 0;
+  margin: auto;
+  height: 1px;
+  background: red;
+  width: 15%;
+}
+
+.price span {
+  padding-top: 15px;
+  font-weight: 600;
+  display: block;
+  font-size: 25px;
+  color: rgb(11, 11, 245);
+  text-align: center;
+}
+
+.buy {
+  display: flex;
+  justify-content: center;  
+  color: #fff;
   height: 50px;
-  font-size: 20px;
-  color: #444;
+  width: 100px;
+  align-items: center;
+  align-self: center; 
+  font-size: 1rem;
+  font-weight: 400;
+  margin-left: 16.1rem;
+  cursor: pointer;
+  border-radius: 4px;
+  position: relative;
+  background: rgb(59, 59, 245);
+  margin-bottom: 50px;
 }
-small{color: #555;}
-a{
-  text-decoration: none;
-  padding: 6px 14px;
-    font-size: 15px;
-    margin: 5px 0 0 20px;
-    display: inline-block;
-    background: #6773ff;
-    color: white;
+
+.carousel .carousel__item img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  padding-top: 100px;
 }
-p.star{
-  margin: 5px auto;
-    width: 65%;
-    font-size: 25px;
-    color: #808080;
+
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 0.5s;
+}
+
+.carousel .carousel__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  background: rgb(59, 59, 245);
+}
+
+.carousel .carousel__actions button#carousel__button--prev {
+  margin-left: 20px;
+}
+
+.carousel .carousel__actions button#carousel__button--next {
+  margin-right: 20px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
 }
